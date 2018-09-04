@@ -1,6 +1,8 @@
 # Demonstration that Foundation spotSwipe does not work
 
-Run the following commands on a checkout of this repository:
+According to https://foundation.zurb.com/sites/docs/javascript-utilities.html#touch one can add swipe events to elements.
+
+So far it does not work for me, run the following commands on a checkout of this repository:
 
 - yarn -s --frozen-lockfile --non-interactive
 - yarn run webpack
