@@ -4,9 +4,11 @@ According to https://foundation.zurb.com/sites/docs/javascript-utilities.html#to
 
 So far it does not work for me, run the following commands on a checkout of this repository:
 
-- yarn -s --frozen-lockfile --non-interactive
-- yarn run webpack
-- $(BROWSER) dist/index.html
+```
+yarn -s --frozen-lockfile --non-interactive
+yarn run webpack
+$(BROWSER) dist/index.html
+```
 
 After opening the index.html you will see the following traceback on the console logs:
 
